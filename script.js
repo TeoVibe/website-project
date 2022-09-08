@@ -1,5 +1,5 @@
 function GetDate(){
 
-    document.getElementById('demo').innerHTML = Date()
+    document.getElementById('test').innerHTML = Date()
 
 }
