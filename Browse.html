@@ -9,8 +9,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="/script.js"></script>
-<body onload="document.getElementById('test').innerHTML = Date()"></body>
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
@@ -26,7 +24,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">Home</a>
     <a href="Browse.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-white">Browse</a>
     <a href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Link 2</a>
-    <p id="test" class="right_header"></p>
+    <p id="date-time" class="right_header"></p>
   </div>
 
   <!-- Navbar on small screens -->
@@ -70,18 +68,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
  </div>
  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
 </footer>
-
-<script>
-// Used to toggle the menu on small screens when clicking on the menu button
-function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-</script>
-
 </body>
+
+<script type="text/javascript" src="script.js"></script>
+
 </html>
