@@ -8,4 +8,8 @@ from django.http import HttpResponse
 
 def hemlo(request):
     # Pull data, transform data, perform actions.. etc..
-    return render(request, 'index.html', {'name': 'Teo'})
+
+    x = 1
+    y = 2
+
+    return render(request, 'index.html') 
