@@ -1,4 +1,4 @@
-# website-project for testing various web development libraries, network configurations and pentesting
+# website-project for testing the django web development framework
 # 
 #
 # website html&css template by W3!
